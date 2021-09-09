@@ -1,9 +1,6 @@
 #include<iostream>
 #include<vector>
 
-#ifndef bubbleSort
-#define bubbleSort
-
 template<typename ITER>
 void bubble_sort(ITER start, ITER end) {
 	ITER cur = start;
@@ -18,5 +15,3 @@ void bubble_sort(ITER start, ITER end) {
 		cur = start;
 	}
 }
-
-#endif // !bubble_sort
